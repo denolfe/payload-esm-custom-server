@@ -7,8 +7,14 @@
     "start": "cross-env NODE_ENV=production node dist/server.js"
   },
   "dependencies": {
+    "@payloadcms/db-mongodb": "3.11.0",
+    "@payloadcms/next": "3.11.0",
+    "@payloadcms/payload-cloud": "3.11.0",
+    "@payloadcms/richtext-lexical": "3.11.0",
     "cross-env": "^7.0.3",
+    "graphql": "^16.8.1",
     "next": "15.1.2",
+    "payload": "3.11.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
