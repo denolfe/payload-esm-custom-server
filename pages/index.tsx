@@ -1,4 +1,6 @@
-import Link from "next/link";
+import LinkImport from 'next/link.js'
+
+const Link = (LinkImport.default || LinkImport) as unknown as typeof LinkImport.default
 
 export default function Home() {
   return (
@@ -10,5 +12,5 @@ export default function Home() {
         <Link href="/b">b (App Router)</Link>
       </li>
     </ul>
-  );
+  )
 }
