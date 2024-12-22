@@ -1,5 +1,5 @@
 {
-  "watch": ["server.ts"],
-  "exec": "node --no-deprecation --import @swc-node/register/esm-register server.ts",
+  "watch": ["src/server.ts"],
+  "exec": "node --no-deprecation --import @swc-node/register/esm-register src/server.ts",
   "ext": "js ts"
 }

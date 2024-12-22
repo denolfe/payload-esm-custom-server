@@ -9,5 +9,5 @@
     "noEmit": false,
     "moduleResolution": "node16"
   },
-  "include": ["server.ts"]
+  "include": ["src/server.ts"]
 }
