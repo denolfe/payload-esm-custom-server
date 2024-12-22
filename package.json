@@ -12,6 +12,7 @@
     "@payloadcms/payload-cloud": "3.11.0",
     "@payloadcms/richtext-lexical": "3.11.0",
     "cross-env": "^7.0.3",
+    "express": "4.21.2",
     "graphql": "^16.8.1",
     "next": "15.1.2",
     "payload": "3.11.0",
@@ -20,6 +21,7 @@
   },
   "devDependencies": {
     "@swc-node/register": "1.10.9",
+    "@types/express": "5.0.0",
     "@types/node": "^18.11.5",
     "@types/react": "19.0.1",
     "@types/react-dom": "19.0.1",
